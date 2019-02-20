@@ -1,0 +1,53 @@
+body, html {
+ height: 100%;
+ margin: 0;
+}
+
+.pic1, .pic2, .pic3{
+ position: relative;
+ opacity: .8;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+
+ background-attachment: fixed;
+}
+.pic1{
+ background-image: url("../img/raleigh_food_truck.jpg");
+ min-height: 100%;
+}
+.pic2{
+ background-image: url("../img/catering.jpeg");
+ min-height: 400px;
+}
+.pic3{
+ background-image: url("../img/baklava.jpg");
+ min-height: 400px;
+}
+.section{
+ text-align: center;
+ padding: 50px 50px;
+}
+.section-light{
+ background-color: #17564e;
+ color: white;
+}
+.section-dark{
+ background-color: green;
+ color: black;
+}
+.ptext{
+ position: absolute;
+ top: 50%;
+ width: 100%;
+ text-align: center;
+ color: #fff;
+ font-size: 3em;
+ letter-spacing: 8px;
+ text-transform: uppercase;
+}
+.ptext .border{
+ background-color: #204742;
+ color: #efefeb;
+ padding: 20px;
+}
