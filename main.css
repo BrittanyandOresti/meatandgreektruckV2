@@ -1,1 +1,48 @@
 
+  .tabs {
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    list-style: none;
+    height: 15vh;
+    background-color: white;
+    padding-bottom: 10vh;
+    border-bottom: 5px solid #b80033;
+    position: fixed;
+    width: 90vw;
+    overflow: hidden;
+    transition: .4s;
+    top: 0;
+    margin-top: -5vh;
+    margin-left: 5vw;
+  }
+
+  #header_logo {
+    width: 17vw;
+    margin-top: 5vh;
+  }
+
+  h3 {
+    margin-top: 10vh;
+    font-size: 1.3em;
+    color: red;
+    text-align: center;
+    padding: 5%;
+  }
+
+  h3:hover {
+    color: black;
+    -ms-transform: scale(1.7); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+  }
+
+.current{
+     color: blue;
+  }
+
+
+ a {
+  text-decoration: none;
+ }
