@@ -24,13 +24,15 @@ body, html {
  background-image: url("../img/baklava.jpg");
  min-height: 400px;
 }
-
+.pic4{
+  background-color: #ff9200;
+}
 .section{
  text-align: center;
  padding: 50px 50px;
 }
 .section-light{
- background-color: #204742;
+ background-color: #2763b5;
  color: white;
 }
 .section-dark{
@@ -48,7 +50,7 @@ body, html {
  text-transform: uppercase;
 }
 .ptext .border{
- background-color: #204742;
+ background-color: #2763b5;
  color: #efefeb;
  padding: 20px;
 }
@@ -65,7 +67,7 @@ iframe{
  height: 80vh;
  padding-left: 10%;
 }
-/* .friends{
+ /*.friends{
  width: 100vw;
  height: 25vh;
  background-color: blue;
@@ -73,4 +75,7 @@ iframe{
 }
 .fpic1{
 
-} */
+}*/
+a{
+  color: white;
+}

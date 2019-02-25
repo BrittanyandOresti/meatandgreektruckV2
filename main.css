@@ -46,3 +46,34 @@
  a {
   text-decoration: none;
  }
+
+footer {
+  display: flex;
+  height: 9vh;
+  background-color: blue;
+  border-top: 5px solid #b80033;
+}
+
+.footer_info {
+  width: 90vw;
+  display: flex;
+  color: white;
+  padding-left: 15%;
+  font-size: .6em;
+}
+.footer_info h1 {
+  padding-left: 4%;
+}
+ .social_icons {
+   display: flex;
+   justify-content: space-between;
+   width: 15vw;
+   padding: 20px;
+   font-size: 2em;
+   text-align: center;
+   text-decoration: none;
+ }
+
+ .fa:hover {
+  opacity: 0.7;
+}
