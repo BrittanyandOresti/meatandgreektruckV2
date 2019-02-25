@@ -1,0 +1,76 @@
+html{
+ margin: 0;
+ padding: 0;
+}
+.book{
+ /* background: rgba(255, 255,255,0.5); */
+ background-image: url("../img/pix.png");
+ height: 100vh;
+ width: 100vw;
+ margin-top: -10%;
+ opacity: 0.8;
+ text-align: center;
+ background-size: cover;
+ background-position: center;
+}
+/* .book{
+
+
+ padding: 10%;
+} */
+
+.contact-form{
+
+}
+::placeholder{
+ color: white;
+}
+.contact-title{
+ margin-top: 10vh;
+ color: white;
+
+}
+.contact-title h1{
+ font-size: 2em;
+}
+.contact-title h2{
+ transition: 4s ease-in-out;
+ color: red;
+ font-size: 4em;
+}
+.contact-title h4{
+ font-size: 1em;
+}
+
+form{
+ margin-top: 50px;
+ transition: all 4s ease-in-out;
+}
+.form-control{
+ width: 600px;
+ background: transparent;
+ border: none;
+ outline: none;
+ border-bottom: 5px solid red;
+ color: white;
+font-size: 2em;
+margin-bottom: 15px;
+}
+input{
+ height: 8vh;
+ width: 30vw;
+}
+form .submit{
+ background: black;
+ border-color: transparent;
+ color: white;
+ font-size: 1.5em;
+ font-weight: bold;
+ letter-spacing: 2px;
+ height: 8vh;
+ margin-top: 20px;
+}
+form .submit:hover{
+ background-color: red;
+ cursor: pointer;
+}
