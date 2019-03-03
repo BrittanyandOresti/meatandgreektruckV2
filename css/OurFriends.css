@@ -2,7 +2,10 @@ html{
  margin: 0;
  padding: 0;
 }
-img{
+body{
+ margin-top: 15%;
+}
+#axes{
  height: 25vh;
  width: 25vw;
 }
@@ -15,8 +18,19 @@ li{
  text-align: center;
 }
 p{
- padding: 20px;
+ padding-left: 5vw;
+ padding-right: 5vw;
 }
-span a{
- float: right;
+button {
+font-size: 1em;
+}
+button:hover{
+ color: red;
+}
+#axes-logo{
+ padding-right: 2vw;
+}
+h6{
+ font-size: 4em;
+ text-align: center;
 }
