@@ -8,7 +8,7 @@
     height: 12vh;
     background-color: white;
     padding-bottom: 10vh;
-    border-bottom: 5px solid #b80033;
+    border-bottom: 5px solid #369488;
     position: fixed;
     width: 90vw;
     overflow: hidden;
@@ -39,7 +39,7 @@
   }
 
 .current{
-     color: blue;
+     color: #165f84;
   }
 
 
