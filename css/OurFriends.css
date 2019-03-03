@@ -1,0 +1,22 @@
+html{
+ margin: 0;
+ padding: 0;
+}
+img{
+ height: 25vh;
+ width: 25vw;
+}
+
+ul{
+
+}
+li{
+ display: flex;
+ text-align: center;
+}
+p{
+ padding: 20px;
+}
+span a{
+ float: right;
+}

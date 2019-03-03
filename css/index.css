@@ -13,7 +13,7 @@ body, html {
  background-attachment: fixed;
 }
 .pic1{
- background-image: url("../img/raleigh_food_truck.jpg");
+ background-image: url("../img/pix.png");
  min-height: 100%;
 }
 .pic2{
@@ -32,11 +32,11 @@ body, html {
  padding: 50px 50px;
 }
 .section-light{
- background-color: #2763b5;
+ background-color: #22635c;
  color: white;
 }
 .section-dark{
- background-color: #b80033;
+ background-color: #165f84;
  color: black;
 }
 .ptext{
@@ -50,7 +50,7 @@ body, html {
  text-transform: uppercase;
 }
 .ptext .border{
- background-color: #2763b5;
+ background-color: #369488;
  color: #efefeb;
  padding: 20px;
 }
@@ -62,7 +62,7 @@ body, html {
 }
 
 iframe{
- opacity: .7;
+ opacity: .9;
  width: 80vw;
  height: 80vh;
  padding-left: 10%;
