@@ -11,3 +11,33 @@ iframe{
  /* padding-right: 10%;
  padding-top: 20%; */
 }
+body{
+ text-align: center;
+}
+h1{
+ padding-top: 25vh;
+ padding-right: 25vh;
+ padding-left: 25vh;
+ text-align: center;
+ justify-content: center;
+}
+#CateringMenu{
+ color: white;
+ background-color: #2373ba;
+ border-color: #e93f34;
+ border-width: thick;
+ text-align: center;
+ font-size: 2em;
+}
+/* .social_facebook_eatery { */
+ /* border: solid #2373ba .5em; */
+/* } */
+#Facebook_eat_intro {
+ font-size: 2em;
+ color: #2373ba;
+
+}
+#facebook_eatery{
+ color: #2373ba;
+ font-size: 5em;
+}

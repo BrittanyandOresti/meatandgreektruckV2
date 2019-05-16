@@ -1,0 +1,34 @@
+/* input value {
+ font-size: 4em;
+} */
+
+body {
+ background-image: url("../img/cat.png");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#CateringMenu, #TruckMenu{
+ color: white;
+ background-color: #2373ba;
+ border-color: #e93f34;
+ border-width: thick;
+ text-align: center;
+ font-size: 3em;
+ padding: 2%;
+ margin-top: 25vh;
+}
+#ezcater{
+ color: white;
+ background-color: #2373ba;
+ border-color: #e93f34;
+ border-width: thick;
+ text-align: center;
+ font-size: 1em;
+ padding: 2%;
+ margin-left: 65%;
+}
+input {
+ margin-left: 20%;
+
+}
